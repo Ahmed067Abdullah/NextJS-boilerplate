@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_ENDPOINT = 'http://certificate-verifier.herokuapp.com/api';
+const API_ENDPOINT = 'API_URL_HERE';
 
 const fetchToken = () => {
   const token = localStorage.getItem("certificate-verifier-token");
